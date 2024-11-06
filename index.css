@@ -1,0 +1,93 @@
+
+        body {
+            margin: 0;
+            color: white;
+            background: linear-gradient(to right, rgb(157, 202, 157) 40%, rgb(143, 150, 52) 60%);
+
+        }
+
+        nav {
+            background-color: #4eac5b;
+            padding: 10px;
+            position: relative;
+            display: flex;
+            align-items: s;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            padding: 0;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+            justify-content: flex-end;
+
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        .il {
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        .Home{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            justify-self: center;
+            gap: 10px;
+            padding-left: -20px;
+        }
+
+        form input{
+            height: 10px;
+            border-radius: 7px;
+            border: none;
+            color: aliceblue;
+        }
+
+        form button{
+            background: linear-gradient(to right, aliceblue, rgb(37, 54, 92) 60%);
+            border: none;
+            border-radius: 7px;
+        }
+
+        #Gender{
+            display: flex;
+        }
+
+        #message{
+            height: 50px;
+            font-size: small;
+        }
+
+        label{
+            font-size: x-small;
+
+        }
+
+        #logo{
+            height: 50px;
+            width: 50px;
+            border-radius: 200px;
+        }
+
